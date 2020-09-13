@@ -1,0 +1,28 @@
+.tab {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 160px;
+	z-index: 1;
+	border-radius: 8px;
+	flex: 1;
+	border: 2px solid;
+	margin: 15px;
+	padding: 15px;
+	border-color: rebeccapurple;
+	background-color: rgba(102, 51, 153, 0.05);
+}
+
+.tab:hover {
+	box-shadow: 0px 0px 6px rebeccapurple;
+	cursor: pointer;
+}
+
+.tab__title {
+	font-size: 18px;
+}
+
+.tab__info {
+	font-size: 14px;
+}

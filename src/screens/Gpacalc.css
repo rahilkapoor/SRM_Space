@@ -1,0 +1,7 @@
+.gpacalc {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	background-color: rebeccapurple;
+	z-index: 1;
+}
